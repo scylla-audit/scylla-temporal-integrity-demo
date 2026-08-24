@@ -1,0 +1,24 @@
+{
+  "decision_time": "2023-06-15T00:01:00Z",
+  "next_execution_open": {
+    "price": 102,
+    "time": "2023-06-15T00:02:00Z"
+  },
+  "observations": [
+    {
+      "available_at": "2023-06-15T00:00:00Z",
+      "close": 100,
+      "open": 99
+    },
+    {
+      "available_at": "2023-06-15T00:01:00Z",
+      "close": 101,
+      "open": 100
+    },
+    {
+      "available_at": "2023-06-15T00:03:00Z",
+      "close": 120,
+      "open": 102
+    }
+  ]
+}
