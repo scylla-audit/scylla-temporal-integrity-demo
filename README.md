@@ -2,6 +2,8 @@
 
 A minimal, deterministic demonstration of future-data leakage detection in a backtest decision.
 
+This repository illustrates one narrow Point-in-Time check inside SCYLLA's broader **Quantitative Trading Systems Integrity & Validation** methodology. It is deliberately not a universal audit platform or framework adapter.
+
 ## The idea
 
 Two synthetic histories are identical through decision time **T**. They have the same hypothetical next execution open and differ only in the later close of that execution bar.
@@ -38,11 +40,11 @@ The CLI emits canonical JSON ending with:
 
 The leaky function is deliberately incorrect teaching code. Detection of its violation is the expected passing outcome.
 
-This bounded example is not a certification of a backtesting platform, a security assessment, or a claim about trading profitability.
+This bounded synthetic example is not certification of a backtesting platform, production system, trading strategy, or untested component. It is not a security assessment and makes no claim about profitability.
 
 - Methodology: https://github.com/scylla-audit/scylla-audit-methodology
 - Website: https://scylla-audit.pages.dev
+- GitHub organization: https://github.com/scylla-audit
 - Contact: scylla.audit@gmail.com
 
 Licensed under the MIT License.
-
